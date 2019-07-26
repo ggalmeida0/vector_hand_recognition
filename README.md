@@ -56,6 +56,8 @@ Finally we have to extract the contour of the threholded image.
 [Click here to read more about this method](https://docs.opencv.org/trunk/d1/dc5/tutorial_background_subtraction.html)  
 [This video is also excellent](https://www.youtube.com/watch?v=nRt2LPRz704)
 
+![threshold image](/images/Threshold_demo.png)
+
 We can get the average value of the background in the following way:
 ```python3
 def get_background(img):
@@ -101,6 +103,8 @@ and also in [this tutorial](https://gogul09.github.io/software/hand-gesture-reco
 3)Draw a circle with the radius 70% of the distance between the center and the top extreme point.  
 4)Find the contour of the overlaping parts of the circle and the hand.  
 5)Count the remaining parts of the circle excluding the bottom which is should be the wrist.  
+
+![circle algorithm image](/images/Circle_demo.png)
   
 The following function will do steps 1 - 4 of the algorithm:
 ```python3
