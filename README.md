@@ -2,6 +2,7 @@
 This repo is a step by step explanation of my procces in making the robot anki vector recognize and read out loud the number of
 fingers you're holding up in your hand in real time.
 
+[Click Here for a video demo](https://www.youtube.com/watch?v=EytN1y0i16g)
 
 
 ## Installations
