@@ -101,7 +101,7 @@ and also in [this tutorial](https://gogul09.github.io/software/hand-gesture-reco
   
 1)Get the extreme points of the contour (top, bottom, left, right).  
 2)Find the center of the hand using those extreme points.  
-3)Draw a circle with the radius 70% of the distance between the center and the top extreme point.  
+3)Draw a circle with the radius 70% of the distance between the center and the farthest extreme point.  
 4)Find the contour of the overlaping parts of the circle and the hand.  
 5)Count the remaining parts of the circle excluding the bottom which is should be the wrist.  
 
